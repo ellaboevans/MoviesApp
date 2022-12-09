@@ -1,0 +1,23 @@
+{
+  "name": "moviesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellaboevans/MoviesApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellaboevans/MoviesApp/issues"
+  },
+  "homepage": "https://github.com/ellaboevans/MoviesApp#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
