@@ -4,10 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/public/style.css" rel="stylesheet" />
+    <title>Movie Studio</title>
   </head>
   <body class="bg-gray-800">
-    <div class="outline p-8 w-full">
-      <h1 class="text-3xl text-white font-bold">Hello world!</h1>
+    <div class="flex justify-between items-center m-4 p-2">
+      <a
+        href=""
+        class="text-white uppercase font-bold tracking-wider text-sm md:text-xl"
+        >Movie Studio</a
+      >
+      <div class="bg-gray-500 py-3 md:w-80 rounded-xl">
+        <form role="search" id="form">
+          <input
+            type="search"
+            name="searching"
+            id="query"
+            placeholder="Search..."
+            class="w-full bg-gray-500 outline-none text-white px-4" required
+          />
+        </form>
+      </div>
     </div>
+    <section
+      id="section"
+      class="md:m-4 p-4 grid grid-cols-2 md:grid md:grid-cols-4 gap-4"
+    >
+      <!-- <div id="row">
+        <div id="column">
+          <div class="card" id="card">
+            <img
+              src="https://lumiere-a.akamaihd.net/v1/images/p_disney_wakandaforever_522-1_1_0bc89eac.jpeg"
+              alt=""
+              class="thumbnail"
+            />
+            <h3 class="title">Movie title</h3>
+          </div>
+        </div>
+    </div> -->
+    </section>
   </body>
+  <script src="./index.js"></script>
 </html>
