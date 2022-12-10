@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .card {
-  @apply bg-gray-500 flex flex-col items-center rounded-xl w-44 md:w-72 p-4 md:hover:scale-110 transition ease-out duration-500 ;
+  @apply bg-gray-500 flex flex-col items-center rounded-xl w-44 md:w-72 p-4 md:hover:scale-110 transition ease-out duration-500;
 }
 
 .thumbnail {
-  @apply w-32 h-40  md:w-64 md:h-72 rounded-xl mb-4 object-cover shadow-lg ;
+  @apply w-32 h-40  md:w-64 md:h-72 rounded-xl mb-4 object-cover shadow-lg;
 }
 
 .title {
