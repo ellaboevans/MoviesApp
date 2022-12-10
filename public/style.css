@@ -664,10 +664,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:m-4 {
-    margin: 1rem;
-  }
-
   .md\:grid {
     display: grid;
   }
